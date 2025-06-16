@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
-const comprehendRoutes = require('./routes/api');
+const comprehendRoutes = require('./Routes/api');
 const cors = require('cors');
 const corsOptions = {
   origin: '*', // Allow all origins for simplicity, adjust as needed
